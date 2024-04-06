@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    /* border: 1px solid rgb(228, 2, 2); */
+}
+.imageries{
+    width:140%;
+    margin-top:30%;
+    margin-bottom: 40%;
+    padding-right: 20%;
+
+}
+#first{
+    display:flex;
+    flex-direction: row;
+}
+
+.two{
+   
+    width:800px;
+    box-shadow:5px 3px 7px rgb(10, 10, 10);
+    margin-right: 4%;
+    margin-top:5%;
+    margin-left: 6%;
+    margin-bottom: 7%;
+    font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0
+
+}
+label{
+    font-size: 35px;
+    font-weight: bold;
+    color: darkviolet;
+    margin-left: 3%;
+    padding-left: 3%;
+    padding-top: 20%;
+   
+}
+input[type="text"],[type="email"],[type="password"]{
+    padding: 3%;
+    margin-left: 3%;
+    box-shadow: 2px 2px 2px 2px black;
+    border-radius: 3px;
+    border:none;
+    width: 90%;
+
+    
+    
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 2%;
+    
+}
+button{
+    border:none;
+    box-shadow: 2px 3px 2px grey;
+    color: white;
+    font-size: 15px;
+    background-color: green;
+    margin-left: 3%;
+    padding: 1%;
+    border-radius: 20px;
+    width: 90%;
+}
+button:hover{
+    background-color: white;
+    border: 1px soild green;
+    color:green
+
+
+}
+.check{
+    display: flex;
+    flex-direction: row;
+   
+}
+input[type="checkbox"]{
+    accent-color: green;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size:3%;
+}
+p{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 2%;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+   
+}
